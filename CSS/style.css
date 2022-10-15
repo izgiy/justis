@@ -55,12 +55,14 @@ body{
 }
 
 .title_text{text-transform: uppercase;
+    word-spacing: 400px;
     font-style: italic;
     position: absolute;
     width: 944px;
     height: 78px;
     left: 574px;
-    top: 70px;
+    top: 10px;
+    line-height: 90px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Marck Script', cursive;
