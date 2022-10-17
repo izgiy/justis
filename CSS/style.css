@@ -214,24 +214,25 @@ font-family: fantasy;}
                 display:block;
               }
               @media (max-width: 768px) {
+                  body{width: 100%;}
                 /* показываем кнопку для переключения верхней навигации */
-                .header{width: 768px;
+                .header{width: 100%;
                     display: block;
                 position: relative;}
                 .title{left: -70px;
-                width: 700px;
+                width: 100%;
             display: block;
         position: relative;}
         .title_text{
             left: 0px;
-            width: 768px;
+            width: 100%;
         display: block;
         height: 400px;
         background: #202222;;
     
 top:320px;
 }
-                .block_1{width: 768px;
+                .block_1{width: 100%;;
                     display: block;
                     position: relative;
                     left: 0px;
@@ -243,62 +244,64 @@ top:320px;
                         font-size: 30px;
                    }
                 
-                .block_2{width: 768px;
+                .block_2{width: 100%;;
                     display: block;
                     position: relative;
                     left: 0px;
                 }
         
                 
-                .block_4{width: 768px;
+                .block_4{width: 100%;
                     display: block;
                     position: relative;
                     left: 0px;
                 }
-                .block_5{width: 768px;
+                .block_5{width: 100%;
                     display: block;
                     position: relative;
                     left: 0px;
                 }
-                .block_6{width: 768px;
+                .block_6{width: 100%;
                     display: block;
                     position: relative;
                     left: 0px;
                 }
-                .block_7{width: 768px;
+                .block_7{width: 100%;
                     display: block;
                     position: relative;
                     left: 0px;
                 }
-                .end{width: 768px;
+                .end{width: 100%;
                     display: block;
                     position: relative;
                     left: 0px;
                 }
             }
              @media (max-width: 480px) {
-                .block_1{width: 452px;
+                .block_1{width: 100%;;
                     display: block;
                     position: relative;
                 left: 0px;}
                 
                 .block_3{display: block;position: relative;
-                    width: 452px;
+                    width: 100%;;
                 }
                 .block_4{display: block;position: relative;
-                    width: 452px;
+                    width: 100%;;
                 }
                 .block_5{display: block;position: relative;
-                    width: 452px;
+                    width:100%;;
                 }
                 .block_6{display: block;position: relative;
-                    width: 452px;
+                    width: 100%;;
                 }
                 .block_7{display: block;position: relative;
-                    width: 452px;
+                    width: 100%;;
                 }
                 .end{display: block;
-                    width: 452px;}
+                    width: 100%;}
              }
+             
+
              
 
