@@ -241,6 +241,7 @@ top:320px;
                     textarea{width: 93%;}
                     button{width: 93%;
                    }
+                   button:active{width: 93%;}
                 
                 .block_2{width: 100%;;
                     display: block;
@@ -276,6 +277,9 @@ top:320px;
                 }
             }
              @media (max-width: 480px) {
+                button{width: 93%;
+                }
+                button:active{width: 93%;}
                 body{width: 100%;}
                 .header{width: 100%;
                     display: block;
@@ -315,6 +319,8 @@ top:320px;}
                 .end{display: block;
                     width: 100%;}
              }
+             
+
              
 
              
