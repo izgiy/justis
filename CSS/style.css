@@ -240,8 +240,6 @@ top:320px;
                     input{width: 93%;}
                     textarea{width: 93%;}
                     button{width: 93%;
-                        height: 150px;
-                        font-size: 30px;
                    }
                 
                 .block_2{width: 100%;;
@@ -300,23 +298,25 @@ top:320px;}
                 left: 0px;}
                 
                 .block_3{display: block;position: relative;
-                    width: 100%;;
+                    width: 100%;
                 }
                 .block_4{display: block;position: relative;
-                    width: 100%;;
+                    width: 100%;
                 }
                 .block_5{display: block;position: relative;
-                    width:100%;;
+                    width:100%;
                 }
                 .block_6{display: block;position: relative;
-                    width: 100%;;
+                    width: 100%;
                 }
                 .block_7{display: block;position: relative;
-                    width: 100%;;
+                    width: 100%;
                 }
                 .end{display: block;
                     width: 100%;}
              }
+             
+
              
 
              
