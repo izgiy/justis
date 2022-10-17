@@ -49,13 +49,13 @@ body{
     position: absolute;
     width: 285px;
     height: 285px;
-    left: 150px;
+    left: 0px;
     top: -40px;
     border-radius: 50%;
 }
 
 .title_text{text-transform: uppercase;
-    word-spacing: 400px;
+    
     font-style: italic;
     position: absolute;
     width: 944px;
@@ -66,7 +66,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-family: 'Marck Script', cursive;
-    font-size: 4.5rem;
+    font-size: 3rem;
     color: #ebc908;
     text-shadow: 1px 1px 1px #919191,
         1px 2px 1px #919191,
@@ -224,6 +224,7 @@ font-family: fantasy;}
             display: block;
         position: relative;}
         .title_text{
+            top:400px;
             left: 0px;
             width: 100%;
         display: block;
@@ -254,32 +255,42 @@ top:320px;
                     display: block;
                     position: relative;
                     left: 0px;
+                    top:350px
                 }
                 .block_5{width: 100%;
                     display: block;
                     position: relative;
                     left: 0px;
+                    top:340px;
                 }
                 .block_6{width: 100%;
                     display: block;
                     position: relative;
                     left: 0px;
+                    top:340px;
                 }
                 .block_7{width: 100%;
                     display: block;
                     position: relative;
+                    
                     left: 0px;
+                    top:340px;
                 }
                 .end{width: 100%;
                     display: block;
                     position: relative;
                     left: 0px;
+                    top:350px;
                 }
+                .title__help{font-size: 3rem;}
             }
              @media (max-width: 480px) {
-                button{width: 93%;
+                .title_text{font-size: 2.5rem;}
+                button{width: 87%;
                 }
-                button:active{width: 93%;}
+                textarea{width:87%}
+                input{width: 87%;}
+                button:active{width: 87%;}
                 body{width: 100%;}
                 .header{width: 100%;
                     display: block;
@@ -300,25 +311,40 @@ top:320px;}
                     display: block;
                     position: relative;
                 left: 0px;}
-                
+                .title__help{font-size: 3rem;}
                 .block_3{display: block;position: relative;
                     width: 100%;
+                    top:400px;
                 }
                 .block_4{display: block;position: relative;
                     width: 100%;
+                    top:340px;
                 }
                 .block_5{display: block;position: relative;
                     width:100%;
+                    top:340px;
                 }
                 .block_6{display: block;position: relative;
                     width: 100%;
+                    top:340px;
                 }
                 .block_7{display: block;position: relative;
                     width: 100%;
+                    top:340px;
                 }
+                textarea{height: 90px;}
+                button{height: 80px;}
+                button:active{height: 80px;}
                 .end{display: block;
-                    width: 100%;}
+                    width: 100%;
+                    top:360px;}
+                    address{font-size: 1.5rem;}
              }
+             
+             @media (max-width: 360px) {
+                 button{height: 40px;}
+                 button:active{height: 40px;}
+            }
              
 
              
